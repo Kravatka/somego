@@ -1,0 +1,2 @@
+create table -> ./migrations/migrate_linux_client/migrate.linux-amd64 create -ext sql -dir migrations create_users
+up migrations -> ./migrations/migrate_linux_client/migrate.linux-amd64 -path migrations -database "postgres://localhost/somego_dev?sslmode=disable&password=1" up
